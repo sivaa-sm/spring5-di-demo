@@ -4,9 +4,9 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-@Service
+/*@Service
 @Profile("fr")
-@Primary
+@Primary*/
 public class PrimaryFrenchGreetingService implements  GreetingService {
 
     private GreetingRepository greetingRepository;
